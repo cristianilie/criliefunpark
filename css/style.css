@@ -210,3 +210,120 @@ footer .section img{
 	height: 500px;
 	margin: 0 auto;
 }
+
+
+/* ------------------- */
+/* ---Media Queries--- */
+/* ------------------- */
+@media screen and (max-width:520px){
+	
+	/* HEADER NAV */
+	#main-nav ul{
+		display: block;
+		align-items: center;
+	}
+	
+	#main-nav ul li{
+		list-style: none;
+		margin: 0 auto;
+	}
+	
+	#main-nav ul li a{
+		text-decoration: none;
+		color: #191716;
+		font-size: 1.2em;
+		display: block;
+		width: 100%;
+	}
+		
+	#main-nav ul li a:hover, #main-header h2:hover{
+		background: rgba(51, 243, 233, 0.301);	
+	}
+	
+#main-heading{
+	background: rgba(51, 243, 233, 0.582);
+	border: 1px solid #4c73c3  ;
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+	margin: 20px auto;
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	height: 184px;
+	width: 90vw;
+}
+
+#main-heading, #main-header, #main-nav ul{
+	display: block;
+}
+
+#main-header img, .section .footer-right-img{
+	display: none;
+}
+
+#main-header h2{
+	font-size: 1.8em;
+	margin: 0 auto 10px auto; 
+	text-align: center;
+	padding-top: 4px;
+}
+
+
+#main-nav ul li{
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrapper, .about-wrapper, .services-wrapper, .contact-wrapper{
+		width: 90vw;
+		margin: 0 auto;
+		background: rgba(148, 202, 249, 0.8);
+		border: 1px solid #4c73c3  ;
+		border-radius: 2px;
+		box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+		display: block;		
+	}
+
+	.sidebar{
+		margin-top: 30px;
+	}
+
+	.roller{
+		width: 35%;
+		margin: 10px 12px;
+		float: left;
+	}
+
+	#main-footer{
+		width: 90vw;
+		margin: 0 auto;
+		background: rgba(25, 223, 206, 0.8);
+		border: 1px solid #4c73c3  ;
+		border-radius: 2px;
+		box-shadow: 0 5px 10px 0px rgba(12, 3, 25, 0.8);
+		margin: 1px auto;
+		display: block;		
+	}
+	#main-footer .section{
+		text-align: center;
+	}
+	
+	.about-section iframe{
+		width: 100%;
+	}
+
+	.services-cols{
+		display: block;
+	}
+
+	.services-cols .section{
+		background: rgba(49, 164, 241, 0.692);
+		border: 1px solid rgba(8, 118, 192, 0.692);
+		margin: 10px;
+		border-radius: 4px;
+	}
+
+	#map{
+		width: 100%;
+	}
+}
