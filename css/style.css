@@ -133,6 +133,7 @@ body{
 #social-media-links{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 footer .section img{
@@ -315,7 +316,7 @@ footer .section img{
 	}
 
 	#social-media-links li a img{
-		width: 85%;
+		width: 80%;
 	}
 	
 	.about-section iframe{
